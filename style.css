@@ -1,0 +1,40 @@
+body{
+  background-color: #000;
+	margin: 0;
+	padding: 0;
+}
+#cont{
+	width: 250px;
+	height: auto;
+	margin-top: -125px;
+	margin-left: 150px;
+	position:fixed;
+	padding: 7px;
+	background-color: #fff;
+	opacity: 0.8;
+	-webkit-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+}
+#cont:hover{
+	margin-top: 0;
+	opacity: 1;
+}
+#info{
+	margin-bottom: 10px;
+	font-size: 11px;
+}
+#info h1{
+	font-family: Georgia;
+	font-size: 14px;
+	margin: 0;
+}
+#imm {
+	height: 100px;
+	overflow: hidden;
+}
+#imm img{
+	margin-top: -80px;
+}
